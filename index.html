@@ -6,7 +6,17 @@
   <body>
     <div class="container">
       <p>Something....</p>
-      <img src="images/world_map.jpg">
-  </div>
+
+      <img src="images/world_map.jpg" id="map-image" style="width: 1425px; max-width: 100%; height: auto;" alt="World Map" usemap="#world_map" />
+      <map name="world_map">
+          <area shape="circle" coords="524, 112, 9" alt="UK" href="uk.html"/>
+          <area shape="circle" coords="467, 135, 12" alt="Spain" href="spain.html"/>
+          <area shape="circle" coords="465, 85, 10" alt="Hungary" href="hungary.html"/>
+      </map>
+
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="imageMapResizer.min.js"></script>
+    <script>$(document).ready(function(e){$("map").imageMapResize();});</script>
   </body>
 </html>
