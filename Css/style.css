@@ -26,3 +26,7 @@ body {
   margin-right: 3%;
 
 }
+
+#jumbotron {
+  background-image: url('images/europe_map.png');
+}
