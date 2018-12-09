@@ -23,6 +23,10 @@
 
 }
 
+
+.header1 {
+  display:inline-block;
+}
 #jumbotron {
   background-image: url('images/europe_map.png');
 }
@@ -46,7 +50,7 @@
   position: relative;
   top: 0;
   left: 0;
-  width: 1880px;
+  width: 1600px;
   height: 512px;
 }
 
@@ -63,6 +67,10 @@
   margin-left: .75rem;
 }
 
+.container-marketing {
+  text-align: center;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -77,9 +85,9 @@
   letter-spacing: -.05rem;
 }
 
-.featurette-image img-fluid mx-auto img {
-  height: 600px;
-  width: 600px;
+.featurette-image {
+  height: 500px;
+  width: 500px;
 }
 
 /* RESPONSIVE CSS
