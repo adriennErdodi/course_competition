@@ -18,6 +18,21 @@ body {
    color: black;
    border: solid;
  }
+
+ h2 {
+   font-family: courier;
+   color: black;
+   border: solid;
+ }
+
+ p {
+   font-family: courier;
+   text-align: center;
+   color: black;
+   /* font-weight: bold; */
+   /* border: solid; */
+ }
+
 #navbar{
   border: solid;
   text-align: center;
@@ -57,6 +72,7 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -83,6 +99,7 @@ body {
 }
 .marketing h2 {
   font-weight: 400;
+  color: black;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
