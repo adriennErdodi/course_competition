@@ -1,10 +1,16 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 body {
   background-color:grey;
   padding:5% 10% 10% 10%;
   border: solid;
  }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
  a{
    text-decoration: none;
    color: black;
@@ -29,6 +35,20 @@ body {
 
 }
 
+<<<<<<< HEAD
+#jumbotron {
+  background-image: url('https://images.pexels.com/photos/269790/pexels-photo-269790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+}
+
+.card {
+  background-image: url('https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+}
+
+#about {
+  background-image: url('https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+=======
 .header1 {
   display:inline-block;
 }
@@ -120,5 +140,6 @@ body {
 }
 
 #pic_src {
+>>>>>>> master
 
 }
