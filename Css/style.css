@@ -154,12 +154,12 @@ body {
 /* Footer - Social Media */
 
 .fa {
-  padding: 20px;
+  padding: 50px;
   font-size: 100px;
   width: 100px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 15px 8px;
   border-radius: 50%;
 }
 
